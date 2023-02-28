@@ -3,7 +3,8 @@ import "@fontsource/open-sans/400.css";
 import "@fontsource/open-sans/700.css";
 import { extendTheme } from "@chakra-ui/react"
 
-// 2. Call `extendTheme` and pass your custom values
+// Mimick Reddit theme using Chakra UI.
+
 export const theme = extendTheme({
   colors: {
     brand: {
